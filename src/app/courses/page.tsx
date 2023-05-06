@@ -103,7 +103,7 @@ export default function Home() {
                     fontSize="calc(1.25625rem + 0.075vw)"
                     fontWeight={700}
                     color="grays.800"
-                    href="/"
+                    href={`/courses/${curse.id}`}
                   >
                     Next
                   </Link>
